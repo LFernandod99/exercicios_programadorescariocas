@@ -16,6 +16,21 @@ while True:
             print('Além de ter como pauta o uso da Inteligencia artifical e a rapidez com que nos tras respostas, a principal critica do episodio é que')
     elif pergunta == 'O EPISÓDIO TERMINA DE MANEIRA TÍPICA PARA A SÉRIE BLACKMIRROR? EXPLIQUE.':
         print('Sim, por conta do plost twist, no episodio, assim como nos outros, a tramatermia de forma que o telespectador n imagina, gerando o sentimento de extase e confusâo')
+
+    else:
+        print('ERRO')
+
+        pergunta = (input(""" 
+        Ainda tem duvidas sobre o episodio?
+        [s] - Sim
+        [n] - Não
+        
+=>: """))
+        
+    print (pergunta)
+
+    if pergunta == 'n':
+         break
     
 
 
